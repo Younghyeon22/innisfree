@@ -1,0 +1,63 @@
+#signup {
+  width: 100%;
+}
+#signup .container {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+}
+#signup .container .gap {
+  width: 100%;
+}
+#signup .container .gap .title {
+  width: 100%;
+  text-align: center;
+}
+#signup .container .gap .title ul li .signtit {
+  font-size: 18px;
+  line-height: 54px;
+  font-weight: 700;
+  color: #252525;
+  letter-spacing: -1px;
+}
+#signup .container .gap .title ul .myinfo {
+  margin-bottom: 30px;
+}
+#signup .container .gap .title ul .myinfo span {
+  font-size: 18px;
+  color: #252525;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 25px;
+}
+#signup .container .gap .content form table tbody tr td {
+  padding-bottom: 20px;
+}
+#signup .container .gap .content form table tbody tr td input {
+  width: 478px;
+  height: 50px;
+  padding: 0 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #252525;
+  line-height: 48px;
+  font-weight: 400;
+  letter-spacing: -0.9px;
+}
+#signup .container .gap .content form .btn-box button {
+  width: 480px;
+  height: 54px;
+  border: 1px solid #12b560;
+  background-color: #fff;
+  color: #12b560;
+  text-align: center;
+  cursor: pointer;
+}
+#signup .container .gap .content form .btn-box p {
+  margin-top: 20px;
+  text-align: center;
+  color: #898989;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+}

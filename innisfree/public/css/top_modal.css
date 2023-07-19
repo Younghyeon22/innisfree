@@ -1,0 +1,34 @@
+#wrap {
+  width: 100%;
+}
+#wrap #topModal {
+  width: 100%;
+  background: #000;
+}
+#wrap #topModal .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+#wrap #topModal .container .gap {
+  width: 100%;
+}
+#wrap #topModal .container .gap .content {
+  width: 100%;
+}
+#wrap #topModal .container .gap .content h1 {
+  width: 100%;
+  font-size: 16px;
+}
+#wrap #topModal .container .gap .content h1 a {
+  display: block;
+  width: 100%;
+  height: 45px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  color: #fff;
+  letter-spacing: -2px;
+}

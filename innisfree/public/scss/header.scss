@@ -1,0 +1,138 @@
+#wrap {
+    width: 100%;
+    #header {
+        width: 100%;
+        height:197px;
+        .container {
+            width: 100%;
+            margin: 0 auto;
+            .gap {
+                width: 100%;
+                height:100%;
+                .content {
+                    width: 100%;
+                    .row1 {
+                        padding: 10px 0;
+                        text-align: right;
+                        height:46px;
+                        background: #f1f2f3;
+                        .container {
+                            width:100%;
+                            ul {
+                                display:inline-flex;
+                                margin-right:300px;
+                                li {  
+                                    padding : 5px 20px 0 0;
+                                    a {
+                                        font-size: 13px;
+                                        font-weight: 400;
+                                        letter-spacing: -1px;
+                                    }
+                                    i {
+                                        width:1px;
+                                        height:11px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .row2 {
+                        margin:0 auto;
+                        max-width: 1280px;
+                        height:96px;
+                        padding-top: 23px;
+                        background: #fff;
+                        .container {
+                            width:100%;
+                            height:100%;
+                            display:flex;
+                            align-items: center;
+                            justify-content:space-between ;
+                            .left {   
+                                width:50%;
+                                a {
+                                    padding-right:40px;
+                                    img {
+                                        width: 181px;
+                                        height:34px;
+                                    }
+
+                                }
+                                input {
+                                    width:396px;
+                                    height:34px;
+                                    border : 2px solid #d9d9d9;
+                                    border-radius: 21px;
+                                    padding-left: 20px;
+                                    letter-spacing: -1px;
+                                }
+                            }
+                            .right {
+                                width:50%;
+                                ul {
+                                    display:flex;
+                                    justify-content: right;
+                                    li {
+                                        
+                                        a {
+                                            font-size:18px;
+                                            color:#000;
+                                            font-weight: 600;
+                                            letter-spacing: -0.5px;
+                                            padding-left: 20px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .row3 {
+                        height:55px;
+                        background: #fff;
+                        .container {
+                            width: 100%;
+                            height:100%;
+                            max-width: 1280px;
+                            margin: 0 auto;
+                            display:flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            .left {
+                                ul {
+                                    display:flex;
+                                    li {
+                                        a {
+                                            font-size: 15px;
+                                            color : #000;
+                                            font-weight: 500;
+                                            letter-spacing: -1px;
+                                            padding-right: 17px;
+                                            &:hover{
+                                                color:#12b560;
+                                                transition: all 0.05s;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                            .right {
+                                a {
+                                    h4 {
+                                        font-size: 16px;
+                                        color : #000;
+                                        font-weight: 500;
+                                        letter-spacing: -1.5px;
+                                        &:hover{
+                                            color:#12b560;
+                                            transition: all 0.05s;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

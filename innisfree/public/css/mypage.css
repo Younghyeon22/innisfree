@@ -1,0 +1,219 @@
+#mypage {
+  width: 100%;
+}
+#mypage .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  height: 1600px;
+}
+#mypage .container .gap {
+  width: 100%;
+}
+#mypage .container .gap .content {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+}
+#mypage .container .gap .content .left-box {
+  width: 200px;
+}
+#mypage .container .gap .content .left-box .sub-menu-box .sub-menu-mypage {
+  margin-top: 43px;
+}
+#mypage .container .gap .content .left-box .sub-menu-box .sub-menu-mypage .sub-menu-tit {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  margin: 30px 0;
+  color: #333;
+}
+#mypage .container .gap .content .left-box .sub-menu-box .sub-menu-mypage .sub-menu-tit .sub-menu-detail .detail-tit {
+  font-size: 15px;
+  font-weight: 300;
+  color: #777;
+  line-height: 22.5px;
+  padding: 8px 0;
+}
+#mypage .container .gap .content .right-box {
+  width: calc(100% - 240px);
+  padding-left: 40px;
+}
+#mypage .container .gap .content .right-box .mypage-main {
+  width: 100%;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row1 {
+  width: 100%;
+  display: flex;
+  border: 1px solid #e3e3e3;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-name-box {
+  width: 50%;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-name-box .name-box {
+  width: 421.109px;
+  height: 220px;
+  padding: 0 20px;
+  text-align: center;
+  background: #f7f9f8;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-name-box .name-box .user-name {
+  font-size: 28px;
+  font-weight: 700;
+  color: #343534;
+  line-height: 150px;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-name-box .name-box p {
+  margin-top: -30px;
+  color: #12b560;
+  font-size: 15px;
+  line-height: 22.5px;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-point-box {
+  width: 70%;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-point-box ul {
+  padding: 60px 10px;
+  display: block;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-point-box ul > li {
+  text-align: center;
+  display: inline-block;
+  margin-right: 50px;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-point-box ul > li .tit1 {
+  color: #222;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 19.2px;
+  margin: 8px 0;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-point-box ul > li .tit2 {
+  display: flex;
+  justify-content: center;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-point-box ul > li .tit2 p {
+  color: #12b560;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: -1px;
+  margin-top: 8px;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row1 .mypage-point-box ul > li .tit2 span {
+  color: #12b560;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 26px;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-tit {
+  width: 1100px;
+  margin-top: 50px;
+  padding-bottom: 10px;
+  margin-bottom: 50px;
+  border-bottom: 1px solid #dbdbdb;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-tit h2 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+  line-height: 27px;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-inf-tit {
+  width: 1100px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-inf-tit h3 {
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  padding-bottom: 17px;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-inf-tit span {
+  font-size: 14px;
+  color: #a8a8a8;
+  line-height: 40px;
+  letter-spacing: -1px;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf {
+  width: 1100px;
+  border: 1px solid #dbdbdb;
+  height: 450px;
+  display: block;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table {
+  display: table;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table tbody {
+  display: table-row-group;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table tbody tr {
+  height: 110px;
+  text-align: left;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table tbody tr th {
+  background-color: #f9f9f9;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table tbody tr th span {
+  margin-left: 30px;
+  font-size: 14px;
+  color: #333;
+  line-height: 21px;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table tbody tr td {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table tbody tr td input {
+  height: 50px;
+  width: 300px;
+  background: #f9f9f9;
+  border: 0;
+  font-size: 14px;
+  color: #a8a8a8;
+  line-height: 21px;
+  padding-left: 25px;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table tbody tr td .member-birth:nth-child(1) {
+  margin-left: 50px;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-form .mypage-inf #formJoin .member-inf .member-base-inf table tbody tr td .member-birth .chosen-single {
+  height: 50px;
+  text-align: center;
+  color: #999;
+  border: 1px solid #7e9fc2;
+  margin-right: 10px;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-form .mypage-inf #formJoin .member-inf .update-btn-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-form .mypage-inf #formJoin .member-inf .update-btn-box button {
+  width: 243px;
+  height: 63px;
+  padding: 17px 0;
+  margin-right: 10px;
+  background: #fff;
+  color: #12b560;
+  border: 1px solid #12b560;
+  font-size: 18px;
+}
+#mypage .container .gap .content .right-box .mypage-main .mypage-row2 .mypage-update .update-form .mypage-inf #formJoin .member-inf .update-btn-box .update-btn {
+  width: 243px;
+  height: 63px;
+  padding: 17px 0;
+  margin-right: 10px;
+  background: #12b560;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 18px;
+}

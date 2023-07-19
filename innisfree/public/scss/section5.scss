@@ -1,0 +1,162 @@
+#wrap {
+    width:100%;
+    #section5 {
+        width:100%;
+        height:1451px;
+        margin: 0 auto;
+        .container {
+            width:100%;
+            height:100%;
+            .gap {
+                width:100%;
+                .top-box {
+                    width:100%;
+                    height:336px;
+                    background-image: linear-gradient(111deg, #1a90fb -7%, #12b260 50%, #ffff82 107%);
+                    .top-box-container {
+                        width:100%;
+                        margin:0 auto;
+                        max-width: 1280px;
+                        .title {
+                            ul {
+                                li {
+                                    div {
+                                        display:flex;
+                                        justify-content: center;
+                                        padding-top:70px;
+                                        align-items: center;
+                                        img {
+                                            width: 80px;
+                                            height: 38px;
+                                        }
+                                        a {
+                                            span {
+                                                font-size: 38px;
+                                                color:#fff;
+                                                margin: 0 0 0 11px;
+                                                font-weight: 500;
+                                                line-height: 57px;
+                                                letter-spacing: -1px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }     
+                        .content {
+                            margin-top : 20px;
+                            width:1280px;
+                            height:88px;
+                            background-color: #fff;
+                            box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.07);
+                            border: 1px solid #f4f4f4;
+                            border-radius: 5px;
+                            ul {
+                                margin: 25px 0;
+                                display:flex;
+                                align-items: center;
+                                justify-content: center;
+                                li {
+                                    button {
+                                        width:auto;
+                                        cursor: pointer;
+                                        font-size: 24px;
+                                        font-weight: 600;
+                                        color: #333;
+                                        border:0;
+                                        border-bottom: 2px solid #222;
+                                        background: #fff;
+                                    }
+                                    img {
+                                        transform: translateY(5px);
+                                        width:24px;
+                                        height:24px;
+                                        border:0;
+                                        border-bottom: 2px solid #222;
+                                    }
+                                    p {
+                                        font-size: 24px;
+                                        color :#999;
+                                        font-weight: 400;
+                                        margin: 0 10px;
+                                    }
+                                }
+                            }
+                        }   
+                    }
+                }
+                .content-box {
+                    width:100%;
+                    max-width: 1280px;
+                    margin: 0 311.5px;
+                    ul {
+                        display:flex;
+                        flex-flow: row wrap;
+                        align-items: center;
+                        justify-content: space-between;
+                        transform: translateY(-35px);
+                        li {
+                            cursor: pointer;     
+                            img {
+                                width:416px;
+                                height:416px;
+                                border-radius: 6px;
+                            }
+                            div {
+                                margin: 20px 0 0 25px;
+                                h4 {
+                                    font-size: 15.5px;
+                                    color: #555;
+                                    font-size: 600;
+                                    line-height: 19.2px;
+                                    margin-bottom: 10px;
+                                    letter-spacing: -1px;
+                                }
+                                span {
+                                    height:20px;
+                                    line-height: 18px;
+                                    font-size: 12px;
+                                    font-weight: 500;
+                                    letter-spacing: -1px;
+                                    color:#222;
+                                    background-color: #fff;
+                                    border: 1px solid #ccc;
+                                    border-radius: 10px;
+                                    padding: 0 9px 0 8px;
+                                    margin: 0 3px 4px 0;
+                                }
+                            }
+                        }
+                    }
+                }
+                .bottom {
+                    .container {
+                        position: relative;
+                        padding-top : 50px;
+                        text-align: center;
+                        align-items: center;
+                        img {
+                            position: absolute;
+                            top:60%;
+                            left:44%;
+                        }
+                        button {
+                            width:300px;
+                            height:48px;
+                            background-color: #fff;
+                            border-radius: 25px;
+                            border: 1px solid #ccc;
+                            cursor: pointer;
+                            span{
+                                padding: 0 0 0 40px;
+                                line-height: 48px;
+                                font-weight: 500;
+                                color:#222;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,85 @@
+#pwsearch {
+  width: 100%;
+}
+#pwsearch .container {
+  width: 100%;
+  max-width: 520px;
+  margin: 0 auto;
+}
+#pwsearch .container .gap {
+  width: 100%;
+}
+#pwsearch .container .gap .title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+#pwsearch .container .gap .title ul li {
+  margin-top: 30px;
+}
+#pwsearch .container .gap .title ul li .row1 {
+  color: #252525;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 54px;
+}
+#pwsearch .container .gap .title ul li .row2 {
+  color: #000;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 32.2px;
+  letter-spacing: -1px;
+}
+#pwsearch .container .gap .content {
+  width: 100%;
+}
+#pwsearch .container .gap .content form table tbody tr td input {
+  width: 480px;
+  height: 50px;
+  border: 1px solid #e6e6e6;
+  padding: 0 12px;
+  border-radius: 6px;
+  color: #252525;
+  font-size: 16px;
+  line-height: 48px;
+  letter-spacing: -1px;
+  margin-bottom: 15px;
+}
+#pwsearch .container .gap .content form table .signin-btn button {
+  cursor: pointer;
+  width: 480px;
+  height: 50px;
+  border: 0;
+  background-color: #fff;
+  color: #12b560;
+  border: 1px solid #12b560;
+  font-size: 18px;
+}
+#pwsearch .container .gap .content form .btn4 {
+  text-align: center;
+  letter-spacing: -0.5px;
+  font-size: 18px;
+  color: #232323;
+  line-height: 27px;
+}
+#pwsearch .container .gap .content form .btn4 li span {
+  color: #333;
+  font-weight: 700;
+  font-size: 18px;
+}
+#pwsearch .container .gap .content .member-search-box {
+  margin-top: 30px;
+}
+#pwsearch .container .gap .content .member-search-box ul {
+  width: 485px;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #c0c0c0;
+}
+#pwsearch .container .gap .content .member-search-box ul li {
+  color: #252525;
+  font-weight: 700;
+}
